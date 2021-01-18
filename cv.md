@@ -42,3 +42,5 @@ I want learn programming and find good job in this sphere. For this i have a tim
     totalPriceElement.innerText = formatter.format(parseInt(totalPrice));    
 };
 ```
+I find and takes part in web trainings. See example of my part [there](https://github.com/andreikaptsiuh/study/tree/master/Calc-start).
+My level of english is low, but this is temporary.
