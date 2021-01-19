@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.header__title {
+  font-family: Georgia;
+  margin-top: 40px;
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+}
+.contacts__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 75px;
+}
+.contacts__title {
+  font-family: Georgia;
+  margin-bottom: 30px;
+}
+.contacts__items {
+  font-family: Arial;
+}
+.contact {
+  margin-bottom: 5px;
+}
+.contacts__img {
+  display: flex;
+  margin-left: 75px;
+  border: solid black 1px;
+}
+.other {
+  display: flex;
+}
+.other__info {
+  display: flex;
+  flex-direction: column;
+}
+.info__title {
+  text-align: center;
+  margin-top: 30px;
+  font-family: Georgia;
+}
+.info__text {
+  font-family: Arial;
+  max-width: 700px;
+  margin-top: 20px;
+}
+.info__link {
+  color: #585757;
+  text-decoration: none;
+}
+.info__link:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
