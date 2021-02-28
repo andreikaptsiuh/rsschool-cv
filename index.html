@@ -9,6 +9,7 @@
     <title>Curriculum vitae</title>
 </head>
 <body>
+    
     <header class="header">
         <div class="wrapper">
             <h1 class="header__title">CURRICULUM VITAE</h1>
@@ -20,38 +21,57 @@
             <div class="contacts__info">
                 <h2 class="contacts__title">Andrei Kaptsiuh</h2>
                 
-                <div class="contacts__items">
-                    <div class="contact"><b>Phone:</b> <em>8(025)6284637</em></div>
-                    <div class="contact"><b>Email:</b> <em>kaptsiuhandrei@gmail.com</em></div>
-                    <div class="contact"><b>Telegram:</b> <em>@andreikaptsiuh</em></div>
-                </div>
+                <ul class="contacts__items">
+                    <li class="contact"><b>Phone:</b> <em>8(025)6284637</em></li>
+                    <li class="contact"><b>Email:</b> <em>kaptsiuhandrei@gmail.com</em></li>
+                    <li class="contact"><b>Telegram:</b> <em>@andreikaptsiuh</em></li>
+                </ul>
             </div>
-         
-            <img class="contacts__img" src="img/photo_cv.jpg" >   
+            <img class="contacts__img" src="img/photo_cv.jpg" alt="photo">   
         </div>
     </div>
 
-    <div class="other">
+    <main class="other">
         <div class="wrapper">
-            <div class="other__info">
+            <section class="other__info">
                 <div class="info__title">
                     <h3>Other information</h3>
                 </div>
-    
                 <div class="info__text">
                     <p> I want learn programming and find good job in this sphere. For this i have a 
                         time, energy and motivation. Now i study Java Script, HTML and CSS. I find and
                         takes part in web trainings. See example of my part 
-                        <a class="info__link" href="https://github.com/andreikaptsiuh/study/tree/master/Calc-start" title="example of my programming">
+                        <a class="link" href="https://github.com/andreikaptsiuh/study/tree/master/Calc-start" title="example of my programming">
                             there.
-                        </a> 
-                        <br>
-                        My level of english is low, but this is temporary.
+                        </a>
                     </p>
                 </div>
+                <div class="skills"> 
+                    <h4>My skills</h4>
+                    <ul class="skills__list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                </div>
+                <div class="english">
+                    <h4>English</h4>
+                    <p class="english__text">My level of english is low, but this is temporary.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__content">
+                <img class="footer__logo" src="img/rs_school_js.svg" alt="logo">
+                <nav class="footer__links">
+                    <a class="link" href="https://github.com/andreikaptsiuh?tab=repositories" title="GitHub">My GitHub</a>
+                    <a class="link" href="https://rs.school/js/" title="enroll in a course">Enroll in a JS course</a>
+                </nav>
             </div>
         </div>
-    </div>
-
+    </footer>
 </body>
 </html>
