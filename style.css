@@ -32,6 +32,7 @@
   margin-bottom: 30px;
 }
 .contacts__items {
+  list-style-type: none;
   font-family: Arial;
 }
 .contact {
@@ -59,11 +60,41 @@
   max-width: 700px;
   margin-top: 20px;
 }
-.info__link {
+.skills {
+  margin-top: 30px;
+}
+.skills__list {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.english {
+  margin-top: 20px;
+}
+.english__text {
+  margin-top: 5px;
+}
+.link {
   color: #585757;
   text-decoration: none;
 }
-.info__link:hover {
+.link:hover {
   color: black;
   border-bottom: 1px solid black;
+}
+.footer {
+  display: flex;
+}
+.footer__content {
+  display: flex;
+  margin-top: 40px;
+}
+.footer__logo {
+  display: flex;
+  width: 50%;
+  height: 50%;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
 }
